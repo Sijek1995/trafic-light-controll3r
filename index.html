@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light Controller</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚦 Traffic Light Controller</h1>
+        <div class="traffic-light">
+            <div class="light red" id="redLight"></div>
+            <div class="light yellow" id="yellowLight"></div>
+            <div class="light green" id="greenLight"></div>
+        </div>
+        <div class="status">
+            <p>Status: <span id="statusText">Loading...</span></p>
+            <p>Terakhir update: <span id="lastUpdate">-</span></p>
+        </div>
+    </div>
+    
+    <script src="scripts/update-light.js"></script>
+</body>
+</html>
