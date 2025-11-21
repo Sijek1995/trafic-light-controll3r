@@ -1,6 +1,6 @@
 {
-    "red": false,
+    "red": true,
     "yellow": false,
-    "green": true,
-    "last_updated": "2025-11-21T14:32:36Z"
+    "green": false,
+    "last_updated": "2025-11-21T14:40:45Z"
 }
